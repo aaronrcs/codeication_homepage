@@ -1,0 +1,122 @@
+/* General Styles: */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* hr{
+    background-color: whitesmoke;
+} */
+
+body{
+    background: black;
+}
+/* .main_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* Logo Styles: */
+.logo_container{
+    /* background: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+#logo{
+    background: whitesmoke;
+    border-radius: 11vw;
+}
+
+#logo > img{
+    width: 10vw;
+    height: auto;
+}
+
+/* Extension Name Styles: */
+
+.header_container{
+    font-family: 'Chalkduster';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.header_container > h1{
+    color: #e44444;
+    font-size: 4vw;
+}
+
+/* Info Text Styles: */
+
+.info_container{
+    font-family: 'Chalkduster';
+    padding: 4px;
+    background-color: rgba(255, 255, 255, 0.1);
+    text-align: center;
+    border-radius: 47px;
+}
+
+.info_container > p{
+    color: #ecd4d4;
+    font-size: 2.3vw;
+    margin-top: 25px;
+}
+
+/* Image Slider Styles: */
+
+#extensionSlider{
+    width: 95%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.screenshots{
+    width: 99vw;
+    height: auto;
+}
+
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    background-color: #171717 !important;
+    width: 50% !important;
+    height: 11% !important;
+}
+
+.carousel-indicators > li{
+    background-color: red !important;
+    width: 13% !important;
+}
+
+/* Download button Styles: */
+
+.download_button_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 24px;
+}
+
+.download_button_container > a{
+    background-color: red !important;
+}
+
+/* Media Queries: */
+@media (max-width: 500px) {
+    #logo{
+        border-radius: 12vw;
+    }
+    #logo > img{
+        width: 24vw;
+        border-radius: 12vw;
+    }
+    .header_container > h1{
+        font-size: 7vw;
+    }
+    .info_container > p{
+        font-size: 4vw;
+    }
+}
