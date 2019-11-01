@@ -1,0 +1,16 @@
+{
+  "name": "codeication_home",
+  "version": "1.0.0",
+  "description": "Homepage website for 'Codecation' Chrome Extension",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "Aaron Romero",
+  "license": "ISC",
+  "homepage": "https://aaronrcs.github.io/codeication_homepage",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
